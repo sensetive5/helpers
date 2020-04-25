@@ -1,1 +1,1 @@
-export * from "./sortOddNumbers";
+export * from "./sortOddNumbers/sortOddNumbers";
