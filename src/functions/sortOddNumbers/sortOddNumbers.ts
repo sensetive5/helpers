@@ -3,11 +3,11 @@ function isOdd(num: number): boolean {
   return !!result;
 }
 
-export function getOddNumbers(array: number[]): number[] {
+function getOddNumbers(array: number[]): number[] {
   return array.filter(isOdd);
 }
 
-export function sortOddNumbers(array: number[]): number[] {
+function sortOddNumbers(array: number[]): number[] {
   const arrayForSort = [...array];
   return arrayForSort.sort((a, b) => a - b);
 }

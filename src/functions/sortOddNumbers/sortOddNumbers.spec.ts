@@ -7,4 +7,13 @@ describe("sortOddNumbers.ts", () => {
 
     expect(sort(sourceArray)).toEqual(expectedArray);
   });
+
+  it("should return empty array when empty array was passed", () => {
+    expect(sort([])).toEqual([]);
+  });
+
+  it("should return same array if odd number was not founded", () => {
+    const sourceArray = [2, 4, 6, 8];
+    expect(sort(sourceArray)).toEqual(sourceArray);
+  });
 });
