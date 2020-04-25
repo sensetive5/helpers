@@ -6,7 +6,7 @@
   "author": "Alexander Sokolov <sensetive5@yandex.ru>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
