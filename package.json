@@ -1,0 +1,21 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://sensetive5@github.com/sensetive5/helpers.git",
+  "author": "Alexander Sokolov <sensetive5@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.4.0",
+    "jest": "^25.4.0",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  }
+}
